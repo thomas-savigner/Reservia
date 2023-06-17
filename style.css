@@ -1,0 +1,1510 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("font/Raleway-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Raleway", "Sans serif";
+    margin: 0px 0px 0px 0px;
+}
+
+#PageHeader {
+    margin: 15px 3% 0% 3%;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.GoToHome:first-child {
+    flex: 1;
+}
+
+.AnchorAccommodationsBtn {
+    color: #0065FC;
+    text-decoration: none;
+    height: 80px;
+    border-top: 3px solid #0065FC;
+    padding: 30px 3% 0px 3%;
+}
+
+.AnchorActivitiesBtn {
+    color: grey;
+    height: 80px;
+    text-decoration: none;
+    padding: 32px 3% 0px 3%;
+}
+
+.SignUpBtn {
+    font-weight: bold;
+    color: #0065FC;
+    text-decoration: none;
+    height: 80px;
+    padding: 32px 0px 0px 3%;
+}
+
+main {
+    padding: 0px 3% 0px 3%;
+}
+
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+#research {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+#map-marker {
+    background-color: #F2F2F2;
+    width: 35px;
+    height: 17px;
+    padding: 18px 7px 18px 7px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+#Marseille {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    height: 53px;
+    border-top: 2px solid #F2F2F2;
+    border-right: none;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: none;
+    padding-left: 2%;
+}
+
+#ResearchBtn {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    border-color: #0065FC;
+    height: 53px;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#ResearchIcon {
+    display:none;
+    width: 23px;
+}
+
+#TxtRechercher {
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+#Filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#TitleFiltersSubModule {
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.FilterGlobalBtn {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold; 
+    text-decoration: none;
+    background-color: white;
+    height: 50px;
+    padding-right: 3%;
+    margin-right: 3%;
+    border: 3px solid #F2F2F2;
+    border-left: none;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.FilterGlobalBtn:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #DEEBFF;
+}
+
+#DogFilterBtn {
+    width: 16%;
+    padding-right: 2%;
+}
+.IconFilter {
+    margin-right: 12%;
+    background-color: #DEEBFF;
+    border: 6px solid #DEEBFF;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#EconomicIcon {
+    width: 1.6em;
+    padding: 10px 7px 10px 9px;
+}
+
+#ChildIcon {
+    width: 1.25em;
+    padding: 8px 10px 8px 10px;
+}
+
+#RomanticIcon {
+    width: 1.4em;
+    padding: 10px 9px 10px 9px;
+}
+
+#DogIcon {
+    width: 1.4em;
+    padding: 11px 9px 11px 9px;
+}
+
+#ResultsIndication {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#InfoResults {
+    width: 8px;
+    padding: 6px 10px 6px 12px;
+    margin-right: 5px;
+    border: 3px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*--- Research Results Module ---*/
+
+#Accommodations {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ResultsAccommodations {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 68%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 15px 15px 15px 15px;
+}                 
+            
+.TitleAccommodations {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+#PanoramaResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+.CardResultsAccommodations {
+    width: 28%;
+    height: 37%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-bottom: 3%;   
+    border: 5px solid white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.PhotoResultsAccommodations {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.PresentationCardResultsAccommodations {
+    margin-left: 5%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleCard {
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+.SubtitleCard1 {
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.StarLine {
+    margin-bottom: 5%;
+}
+
+.Star {
+    height: 12px;
+}
+
+#ShowMore {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 4%;
+}
+
+/*--- SuggestionsTop3Accommodations ---*/
+
+#SuggestionsAccommodations {
+    background-color: #F2F2F2;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 15px 15px 15px 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#TitleSuggestions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 9%
+}
+
+#IconChartLine {
+    height: 20px;
+}
+
+#PanoramaSuggestionsAccommodations {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2%;
+}
+
+.LinkCardSuggestion {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 85%;
+    margin-bottom: 5%;
+    border: 5px solid white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.PictureSuggestion {
+    width: 45%;
+}
+
+.PhotoCardSuggestionsAccommodations  {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.TextCardSuggestionAccommodations {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+    padding-left: 6%;
+    padding-right: 10%;
+    font-size: 1em;
+}
+
+.TitleCard1 {
+    font-weight: bold;
+}
+
+.SubtitlePrice {
+    flex-grow: 2;
+    margin-top: 2%;
+}
+
+.StarLine1 {
+    flex-grow:  2;
+}
+
+
+
+
+        /*--- Activities ---*/
+
+#Activities {
+    padding-top: 2%;
+}
+
+.TitleActivities {
+    font-size: large;
+    font-weight: bold;
+}
+
+#PanoramaActivities {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: 2%;
+}
+
+.Block1Activity {
+    width:23%;
+    height: 480px;
+    box-shadow: 3px 3px 5px 3px #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.LinkActivity { 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.PhotoActivity {
+    height: 88%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.TitleActivity {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.Block2Activities {
+    width: 23%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.LinkActivity1 { 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px 5px #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.PhotoActivity1 {
+    border-radius: 20px 20px 0px 0px;
+}
+
+#LinkAct2 {
+    height: 50%
+}
+
+#PhotoAct2 {
+    height: 76%;
+    width: 100%;
+}
+
+#LinkAct3 {
+    height : 40%
+}
+
+#PhotoAct3 {
+    height: 70%;
+    width: 100%;
+}
+
+#LinkAct5 {
+    height: 43%;
+}
+
+#PhotoAct5 {
+    height: 71%;
+    width: 100%;
+}
+
+#LinkAct6 {
+    height: 47%
+}
+
+#PhotoAct6 {
+    height: 74%;
+    width: 100%;
+}
+        /*--- Footer ---*/   
+
+footer {
+    background-color: #F2F2F2;
+    margin: 40px 0px 0px 0px;
+    padding: 15px 4% 40px 4%;
+    display: flex;
+}
+
+.FooterModule {
+    display: flex;
+    flex-direction: column;
+    padding-right: 280px; 
+}
+
+.FooterLink {
+    color: black;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #PageHeader {
+        height:auto;
+        margin: 20px 0 0 0;
+    }
+
+    nav {
+        height:auto;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1em;
+    }
+
+    .GoToHome {
+        padding-left: 6%;
+    }
+  
+    .AnchorAccommodationsBtn:nth-child(2) {
+        width: 40%;
+        height:auto;
+        order: 3;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        padding-top: 0px;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+  
+    .AnchorActivitiesBtn:nth-child(3) {
+        order:4;
+        width: 40%;
+        height: auto;
+        padding-top: 0px;
+        border-bottom: 4px solid #F2F2F2;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+
+    .SignUpBtn:nth-child(4) {
+        order:2;
+        width: 40%;
+        height: auto;
+        padding-top: 0px;
+        font-weight: bold;
+        text-align: end;
+        padding-right: 6%;
+    }
+
+    h1 {
+        font-size: 1.35em;
+        font-weight: bolder;
+        text-align: center;
+        padding: 2% 15% 0% 1%;
+    }
+
+    .SubtitleSearch {
+        text-align: center;
+        padding-right: 14%;
+    }
+
+    #research {
+        display: flex;
+        justify-content: center;
+        width: 22em;
+        margin-top: 10%;
+    }
+
+    #map-marker {
+        width: 1.2em;
+        padding: 5% 5% 6% 6%;
+    }
+
+    #Marseille {
+        font-size: 1.2em;
+        width: 12em;
+        height:auto;
+        padding-left: 4%;
+    }
+
+    #ResearchBtn {
+        display:flex;
+        align-items:center;
+        padding: 0 5% 0 5%;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #ResearchIcon {
+        width: 1.25em;
+        display:block;
+    }
+
+    #TxtRechercher {
+        display: none;
+    }
+
+    #Filters {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 2%;
+    }
+
+    #TitleFiltersSubModule {
+        width: 100%;
+    }
+
+    .FilterGlobalBtn {
+        height: 3em;
+        margin-top: 3%;
+    }
+
+    #EconomicalBtn {
+        width: 7em;
+        margin-right:3%;
+        padding-right: 18%;
+    }
+
+    #EconomicIcon {
+        margin-right: 9%;
+    }
+
+    #FamilyBtn {
+        width: 6em;
+        padding-right: 12%;
+    }
+
+    #ChildIcon {
+        margin-right: 12%;
+    }
+
+    #RomanticBtn {
+        width: 8em;
+        padding-right: 12%;
+    }
+
+    #RomanticIcon {
+        margin-right: 10%;
+    }
+
+    #DogFilterBtn {
+        width: 14em;        
+    }
+
+    #DogIcon {
+        margin-right: 6%;
+    }
+
+    #ResultsIndication {
+        padding-left: 3%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #InfoResults {
+        width: 0.3em;
+        margin-top:3%;
+        border-radius: 35px 35px 35px 35px;
+    }
+
+    #Accommodations {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #SuggestionsAccommodations {
+        width: 100%;
+        padding: 6% 3% 8% 3%;
+        border-radius: 0 0 0 0;
+        justify-content: space-between;
+    }
+
+    #PanoramaSuggestionsAccommodations {
+        padding-top: 5%;
+    }
+
+    .LinkCardSuggestion {
+        width: 95%;
+        margin-bottom: 3%;
+    }
+
+    .PhotoCardSuggestionsAccommodations {
+        width: 100%;
+        border-radius: 10% 0% 0% 10%;
+    }
+
+    .TextCardSuggestionAccommodations {
+        padding: 0% 0% 0% 5%;
+        justify-content: flex-start;
+    }
+
+    #TitleSuggestions {
+        margin-left: 0;
+        margin-right: 2%;
+    }
+
+    .SubtitlePrice {
+        font-size: 0.85em;
+        padding-bottom: 10%;
+    }
+
+    #ResultsAccommodations {
+        width: 100%;
+        background-color: white;
+        padding-top: 7%;
+    }
+
+    #PanoramaResults {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    .TitleAccommodations {
+        font-size: 1.4em;
+        margin-left: 2%;
+    }
+
+    .CardResultsAccommodations {
+        width: 95%;
+        padding-bottom: 3%;
+        box-shadow: 3px 3px 5px 5px #F2F2F2;
+    }
+    
+    .PhotoResultsAccommodations {
+        height: 62%;
+    }
+
+    .PresentationCardResultsAccommodations {
+        height: 37%;
+    }
+
+    .StarLine {
+        margin-bottom: 0;
+    }
+
+    #ShowMore {
+        margin: 8% 0 10% 2%;
+    }
+
+    .TitleActivities {
+        font-size: 1.4em;
+        margin-left: 2%;
+    }
+
+    #PanoramaActivities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 8%;
+    }
+
+    .Block1Activity {
+        width: 97%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .Block2Activities {
+        width: 97%;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .LinkActivity1 {
+        margin-bottom: 5%;
+    }
+
+    #PhotoAct1 {
+        height: 70%;
+    }
+
+    #PhotoAct2 {
+        height: 70%;
+    }
+
+    #PhotoAct3 {
+        height: 70%;
+    }
+
+    #PhotoAct4 {
+        height: 70%;
+    }
+
+    #PhotoAct5 {
+        height: 70%;
+    }
+
+    #PhotoAct6 {
+        height: 70%;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FooterModule {
+        padding-right: 0;
+    }
+
+    .FooterLink {
+        margin-bottom: 1%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #PageHeader {
+        height:auto;
+        margin: 20px 0 0 0;
+    }
+
+    nav {
+        height:auto;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1em;
+    }
+
+    .GoToHome {
+        padding-left: 6%;
+    }
+  
+    .AnchorAccommodationsBtn:nth-child(2) {
+        width: 40%;
+        height:auto;
+        order: 3;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        padding-top: 0px;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+  
+    .AnchorActivitiesBtn:nth-child(3) {
+        order:4;
+        width: 40%;
+        height:auto;
+        padding-top: 0px;
+        border-bottom: 4px solid #F2F2F2;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+
+    .SignUpBtn:nth-child(4){
+        order:2;
+        width: 40%;
+        height:auto;
+        padding-top: 0px;
+        font-weight:bold;
+        text-align: end;
+        padding-right: 6%;
+    }
+
+    h1 {
+        font-size: 1.35em;
+        font-weight:bolder;
+        text-align: center;
+        padding: 2% 8% 0% 4%;
+    }
+
+    .SubtitleSearch {
+        padding-left: 6%;
+    }
+
+    #research {
+        width: 22em;
+        margin-top: 10%;
+    }
+
+    #map-marker {
+        width: 1.15em;
+        padding: 5% 5% 6% 6%;
+    }
+
+    #Marseille {
+        font-size: 1.2em;
+        width: 12em;
+        height:auto;
+        padding-left: 4%;
+    }
+
+    #ResearchBtn {
+        display:flex;
+        align-items:center;
+        padding: 0 5% 0 5%;;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #ResearchIcon {
+        width: 1.25em;
+        display:block;
+    }
+
+    #TxtRechercher {
+        display:none;
+    }
+
+    #Filters {
+        display:flex;
+        flex-wrap:wrap;
+        padding-left: 2%
+    }
+
+    #TitleFiltersSubModule {
+        width: 100%;
+    }
+
+    .FilterGlobalBtn {
+        height: 3em;
+        margin-top: 3%;
+    }
+
+    #EconomicalBtn {
+        width: 7em;
+        margin-right:3%;
+        padding-right: 18%;
+    }
+
+    #EconomicIcon {
+        margin-right: 9%;
+    }
+
+    #FamilyBtn {
+        width: 6em;
+        padding-right: 12%;
+    }
+
+    #ChildIcon {
+        margin-right: 12%;
+    }
+
+    #RomanticBtn {
+        width: 8em;
+        padding-right: 12%;
+    }
+
+    #RomanticIcon {
+        margin-right: 10%;
+    }
+
+    #DogFilterBtn {
+        width: 14em;        
+    }
+
+    #DogIcon {
+        margin-right: 6%;
+    }
+
+    #ResultsIndication {
+        padding-left: 3%;
+        display:flex;
+        align-items:flex-start;
+    }
+
+    #InfoResults {
+        width: 0.3em;
+        margin-top:3%;
+        border-radius: 35px 35px 35px 35px;
+    }
+
+    #Accommodations {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+
+    #SuggestionsAccommodations {
+        width: 100%;
+        padding: 6% 3% 8% 3%;
+        border-radius: 0 0 0 0;
+        justify-content: space-between;
+    }
+
+    #PanoramaSuggestionsAccommodations {
+        padding-top: 5%;
+    }
+
+    .LinkCardSuggestion {
+        width: 95%;
+        margin-bottom: 3%;
+    }
+
+    .PhotoCardSuggestionsAccommodations {
+        width: 100%;
+        border-radius: 10% 0% 0% 10%;
+    }
+
+    .TextCardSuggestionAccommodations {
+        padding: 0% 0% 0% 5%;
+    }
+
+    .SubtitlePrice {
+        margin-bottom: 30%;
+    }
+
+    .StarLine1 {
+        margin-bottom: 10%
+    }
+
+    #TitleSuggestions {
+        margin-left: 0;
+        margin-right: 2%;
+    }
+
+    .SubtitlePrice {
+        font-size: 0.85em;
+    }
+
+    #ResultsAccommodations {
+        width: 100%;
+        background-color: white;
+        padding-top: 7%;
+    }
+
+    #PanoramaResults {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    .TitleAccommodations {
+        font-size: 1.4em;
+        margin-left: 2%;
+    }
+
+    .CardResultsAccommodations {
+        width: 95%;
+        height: 100%;
+        padding-bottom: 0;
+        box-shadow: 3px 3px 5px 5px #F2F2F2;
+    }
+    
+    .PhotoResultsAccommodations {
+        height: 65%;
+    }
+
+    #ShowMore {
+        margin: 8% 0 10% 2%;
+    }
+
+    .TitleActivities {
+        font-size: 1.4em;
+        margin-left: 2%;
+    }
+
+    #PanoramaActivities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 8%;
+    }
+
+    .Block1Activity {
+        width: 97%;
+        height:auto;
+        margin-bottom: 5%;
+    }
+
+    .Block2Activities {
+        width: 97%;
+        height: auto;
+        justify-content:flex-start;
+    }
+
+    .LinkActivity1 {
+        margin-bottom: 5%;
+    }
+
+    #PhotoAct1 {
+        height: 70%;
+    }
+
+    #PhotoAct2 {
+        height: 70%;
+    }
+
+    #PhotoAct3 {
+        height: 70%;
+    }
+
+    #PhotoAct4 {
+        height: 70%;
+    }
+
+    #PhotoAct5 {
+        height: 70%;
+    }
+
+    #PhotoAct6 {
+        height: 70%
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FooterModule {
+        padding-right: 0;
+    }
+
+    .FooterLink {
+        margin-bottom: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 981px) {
+
+    #PageHeader {
+        height:auto;
+        margin: 20px 0 0 0;
+    }
+
+    nav {
+        height:auto;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 1em;
+    }
+
+    .GoToHome {
+        padding-left: 6%;
+    }
+  
+    .AnchorAccommodationsBtn:nth-child(2) {
+        width: 40%;
+        height:auto;
+        order: 3;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        padding-top: 0px;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+  
+    .AnchorActivitiesBtn:nth-child(3) {
+        order:4;
+        width: 40%;
+        height:auto;
+        padding-top: 0px;
+        border-bottom: 4px solid #F2F2F2;
+        font-weight: bold;
+        text-align: center;
+        padding: 6% 5% 4% 5%;
+    }
+
+    .SignUpBtn:nth-child(4){
+        order:2;
+        width: 40%;
+        height:auto;
+        padding-top: 0px;
+        font-weight:bold;
+        text-align: end;
+        padding-right: 6%;
+    }
+
+    h1 {
+        font-size: 1.35em;
+        font-weight: bolder;
+        padding: 2% 15% 0% 0%;
+    }
+    
+    #research {
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    #Filters {
+        flex-wrap: wrap;
+    }
+
+    .IconFilter {
+        margin-right: 3%;
+    }
+
+    #TitleFiltersSubModule {
+        width: 100%;
+    }
+
+    .FilterGlobalBtn {
+        margin-top: 2%;
+    }
+    #DogFilterBtn {
+        width: 28%;
+    }
+
+    #Accommodations {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #SuggestionsAccommodations {
+        width: 100%;
+        background-color: white;
+    }
+
+    #TitleSuggestions {
+        margin-left: 3%;
+        margin-right: 6%
+    }
+    
+    #PanoramaSuggestionsAccommodations {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .LinkCardSuggestion {
+        width: 25%;
+        flex-direction: column;
+        box-shadow: 5px 5px 3px 5px #F2F2F2;
+    }
+    
+    .PictureSuggestion {
+        width:100%;
+    }
+
+    .PhotoCardSuggestionsAccommodations {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .TextCardSuggestionAccommodations {
+        width: 78%;
+        padding-left: 10%;
+    }
+
+    .SubtitlePrice {
+        font-size: 0.92em;
+        margin-top: 0%;
+    }
+
+    #ResultsAccommodations {
+        width: 100%;
+    }
+    
+    .CardResultsAccommodations {
+        width: 42%;
+    }
+
+    .SubtitleCard1 {
+        padding-top: 2%
+    }
+
+    .StarLine {
+        padding-top: 2%
+    }
+
+    #PanoramaActivities {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .Block1Activity {
+        width: 30%;
+        height: 30%;
+        margin-bottom: 2% 
+    }
+
+    #Activities23 {
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        height: auto;
+    }
+
+    #Activities56 {
+        display:flex;
+        flex-direction: row;
+        width: 65%;
+        height: auto;
+    }
+
+    .LinkActivity1 {
+        width: 46%;
+        height: 95%;
+        text-align: center;        
+    }
+
+    .LinkActivity {
+        text-align: center;
+    }
+
+     #LinkAct2 {
+         height: 95%;
+    }
+
+     #PhotoAct2 {
+        height: auto;
+    }
+
+    #LinkAct3 {
+        height: 95%;
+    }
+
+    #PhotoAct3 {
+        height: auto;
+    }
+
+    #LinkAct5 {
+        height: 95%;
+    }
+
+    #PhotoAct5 {
+        height: auto;
+    }
+
+    #LinkAct6 {
+        height: 95%;
+    }
+
+    #PhotoAct6 {
+        height: auto;
+    }
+
+    .TitleActivity {
+        padding-left: 0;
+        font-size: 0.90em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .FooterModule {
+        padding-right: 5%;
+    }
+
+    #OurAccommodations {
+        padding-left: 5%
+    }
+
+    #Assistance {
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 982px) and (max-width: 1279px) {
+
+    h1 {
+        font-size: medium
+    }
+
+    #DogFilterBtn {
+        width: 24%
+    }
+
+    .TitleAccommodations {
+        font-size: medium;
+    }
+
+    .PresentationCardResultsAccommodations {
+        font-size: 0.69em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SubtitleCard1 {
+        margin-top :1%;
+    }
+
+    .Star {
+        width: 1em;
+    }
+    
+    .StarLine {
+        margin-top: 0;
+    }
+
+    .TextCardSuggestionAccommodations {
+        font-size: 0.69em;
+        padding-right: 0;
+        padding-left: 3%;
+        justify-content: flex-start;
+    }
+
+   .SubtitlePrice {
+       margin-top: 5%;
+   }
+
+   .StarLine1 {
+       margin-top: 15%;
+   }
+
+   #PanoramaActivities {
+        height: 380px;
+    }
+
+    .TitleActivities {
+    font-size: medium;
+    }
+
+    .Block1Activity {
+        height: 390px;
+    }
+
+    .Block2Activities {
+        height: 390px;
+    }
+
+    #LinkAct2 {
+        height: 50%;
+    }
+
+    #PhotoAct2 {
+        height: 77%;
+    }
+
+    #LinkAct3 {
+        height: 36%;
+    }
+
+    #PhotoAct3 {
+        height: 66%;
+    }
+
+    #LinkAct5 {
+        height: 40%;
+    }
+
+    #PhotoAct5 {
+        height: 70%;
+    }
+
+    #LinkAct6 {
+        height: 46%;
+    }
+   
+    #PhotoAct6 {
+        height: 74%
+    }
+    .TitleActivity {
+        font-size: 0.75em;
+    }
+
+    .FooterModule {
+        padding-right: 200px;
+    }
+
+    h3 {
+        font-size: medium;
+    }
+
+    .FooterModule {
+        padding-right: 130px;
+    }
+
+    .FooterLink {
+        font-size: medium;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1514px) {
+
+    #DogFilterBtn {
+        width: 19%;
+    }
+
+    .PresentationCardResultsAccommodations {
+        font-size: 0.90em;
+    }
+
+    .TextCardSuggestionAccommodations {
+        padding-left: 3%;
+        padding-right: 7%;
+        font-size: 0.90em;
+        justify-content: flex-start;
+    }
+
+    #PanoramaActivities {
+        height: 390px;
+    }
+
+    .Block1Activity {
+        height: 100%;
+    }
+
+    .Block2Activities {
+        height: 100%;
+    }
+
+    #LinkAct2 {
+        height: 45%;
+    }
+
+    #PhotoAct2 {
+        height : 70%;
+    }
+
+    #LinkAct3 {
+        height: 41%;
+    }
+
+    #PhotoAct3 {
+        height: 66% 
+    }
+
+    #LinkAct5 {
+        height: 40%;
+    }
+
+    #PhotoAct5 {
+        height: 64%
+    }
+
+    #LinkAct6 {
+        height: 47%;
+    }
+
+    #PhotoAct6 {
+        height: 70%
+    }
+    .PhotoActivity {
+        height: 86%
+    }
+
+    .TitleActivity {
+        padding-bottom: 20%
+    }
+
+    .FooterModule {
+        padding-right: 180px
+    }
+}
