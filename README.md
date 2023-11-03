@@ -1,6 +1,6 @@
 
 
-# Projet 1 - Transformez une maquette en site web
+# Projet - Transformez une maquette en site web
 
 [![Reservia logo](/images/Reservia-logo.png "Voir le prototype Reservia")](https://thomas-savigner.github.io/01_OpenClassrooms_Reservia/)
 
