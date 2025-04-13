@@ -56,10 +56,10 @@ To view or modify the project locally:
 
 1.  Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/thomas-savigner/Reservia.git
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd 01_Reservia
+    cd Reservia
     ```
 3.  Open the `index.html` file in your web browser.
