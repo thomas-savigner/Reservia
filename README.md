@@ -1,4 +1,4 @@
-[![Reservia logo](/images/Reservia-logo.png "Watch Reservia prototype")](https://thomas-savigner.github.io/Reservia/)
+[![Reservia logo](/images/Reservia-logo.png "Watch Reservia prototype")](https://thomas-savigner.github.io/reservia/)
 
 # Reservia - Mockup to Website Conversion
 
@@ -22,7 +22,7 @@ The goal was to accurately replicate the visual design and layout of the mockups
 ## Live Demo
 
 A live version of the site is deployed on GitHub Pages:
-[View Live Demo](https://thomas-savigner.github.io/Reservia/)
+[View Live Demo](https://thomas-savigner.github.io/reservia/)
 
 ## Mockups
 
@@ -56,7 +56,7 @@ To view or modify the project locally:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/thomas-savigner/Reservia.git
+    git clone https://github.com/thomas-savigner/reservia.git
     ```
 2.  Navigate to the project directory:
     ```bash
