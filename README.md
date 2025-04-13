@@ -1,52 +1,65 @@
+[![Reservia logo](/images/Reservia-logo.png "Watch Reservia prototype")](https://thomas-savigner.github.io/Reservia/)
 
+# Reservia - Mockup to Website Conversion
 
-# Projet 1 - Transformez une maquette en site web
+This project involves converting provided design mockups (desktop and mobile) for a fictional vacation planning website, "Reservia", into a functional static web page using only HTML and CSS. This was completed as an initial project during an internship following a web development training program.
 
-[![Reservia logo](/images/Reservia-logo.png "Voir le prototype Reservia")](https://thomas-savigner.github.io/01_OpenClassrooms_Reservia/)
+## Project Overview
 
-## Scenario
+The goal was to accurately replicate the visual design and layout of the mockups for both desktop and mobile screen sizes, ensuring a responsive user experience. The focus was on structuring the content semantically with HTML and styling it appropriately with CSS, adhering to specific technical constraints.
 
-J'ai débuté mon premier stage comme développeur web chez Reservia, une petite entreprise proposant un outil de planification de vacances.
+## Features
 
-Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
+*   **HTML5 & CSS3:** Built using modern web standards.
+*   **Responsive Design:** Adapts to different screen sizes (desktop and mobile specified, tablet view flexible).
+*   **Flexbox Layout:** Uses CSS Flexbox for page structure and element positioning.
+*   **Semantic HTML:** Employs meaningful HTML tags for better structure and accessibility.
+*   **W3C Validated:** Code checked against W3C validation standards.
+*   **No Frameworks/Preprocessors:** Developed purely with vanilla HTML and CSS.
+*   **Custom Styling:** Implements the provided color palette and Raleway font.
+*   **Font Awesome Icons:** Integrates icons from the Font Awesome library.
 
-Mon manager, Sarah, CTO de l'entreprise, me confie la 1ère tâche du développement d'un site. Je vais découper et intégrer les maquettes en partant de zéro et en utilisant que HTML pour la structuration et le contenu du site et CSS pour en définir le style. 
+## Live Demo
 
-Elle me transmet également les spécifications et cadre le début du projet.<br/><br/><br/>
+A live version of the site is deployed on GitHub Pages:
+[View Live Demo](https://thomas-savigner.github.io/Reservia/)
 
+## Mockups
 
-## Contraintes techniques
+The project was based on the following design mockups:
 
-- A partir des maquettes desktop et mobile, créer la page, sans développer les fonctionnalités, en version smartphone et desktop, version tablette libre.
-  
-  Responsive: 
-  
-    - Définir les breakpoints appropriés des media queries.
-    - Utiliser Flexbox plutôt que CSS Grid pour l'agencement des éléments sur la feuille de style.
-- Les frameworks et pré-compilateurs comme Sass sont proscrits, la page doit être écrite from scratch uniquement avec HTML et CSS. Le code utilisera des balises sémantiques et devra être soumis aux validateurs W3C.
-- La page sera compatible avec les dernières versions des navigateurs Chrome et Firefox.
-- Le code sera versionné avec Git et un dépôt distant hébergé sur GitHub ou GitLab. La page sera déployée sur GitHub Pages ou GitLab Pages.<br/><br/><br/>
+[![Desktop model](/images/Models/Desktop-model-thumb.png "Desktop Mockup")](/images/Models/Desktop-model.png) | [![Mobile model](/images/Models/iPhone8-model-thumb.png "Mobile Mockup")](/images/Models/iPhone8-model.png)
+---|---
+Desktop View | Mobile View
 
+## Technical Constraints
 
-## Ressources fournies
+*   Implement desktop and mobile views based on mockups.
+*   Use appropriate media query breakpoints for responsiveness.
+*   Utilize Flexbox for layout (CSS Grid was disallowed).
+*   Write code from scratch without CSS frameworks (like Bootstrap) or preprocessors (like Sass).
+*   Ensure compatibility with the latest versions of Chrome and Firefox.
+*   Use Git for version control and host the repository on GitHub/GitLab.
+*   Deploy the final page using GitHub Pages or GitLab Pages.
 
-- Les images sont disponibles en différents formats: choisir et adapter le format alliant un compromis entre la résolution et le temps de chargement.
-- Les icônes proviennent de la bibliothèque Font Awesome.
-- Les couleurs de la charte graphique:
+## Technologies Used
 
-   - Primaire: un bleu (#0065FC)
-   - Secondaire: le même bleu en version plus claire (#DEEBFF)
-   - Tertiaire: un gris pour le fond (#F2F2F2)
-- La police du site est Raleway.<br/><br/><br/>
+*   HTML5
+*   CSS3 (including Flexbox)
+*   Git
+*   GitHub / GitHub Pages
+*   Font Awesome
 
+## Setup
 
-## Maquettes
-Celles-ci ont été réalisées par le designer UI de Reservia, il a utilisé les principes du Material Design.<br/><br/>
+To view or modify the project locally:
 
-[![Desktop model](/images/Models/Desktop-model-thumb.png "Maquette desktop")](/images/Models/Desktop-model.png) | [![Mobile model](/images/Models/iPhone8-model-thumb.png "Maquette mobile")](/images/Models/iPhone8-model.png)
-
-## Compétences évaluées
-- Mettre en place son environnement Front-End
-- Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
-- Intégrer du contenu conformément à une maquette
-- Implémenter une interface responsive<br/><br/>
+1.  Clone the repository:
+    ```bash
+    git clone <repository_url>
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd 01_Reservia
+    ```
+3.  Open the `index.html` file in your web browser.
